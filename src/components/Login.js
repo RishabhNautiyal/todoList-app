@@ -44,9 +44,14 @@ const Login = () => {
             type="email"
             name="email"
             id="email"
-            placeholder="Enter Email Id"
+ thirdBranch
             onChange={handleChange}
             value={email}
+            placeholder="Enter Email Id"
+            
+            onChange={handleChange}
+            value={email}
+main
           />
         </div>
         <div>
@@ -57,6 +62,10 @@ const Login = () => {
             id="password"
             onChange={handleChange}
             value={password}
+ thirdBranch
+            placeholder="Enter Password"
+
+main
           />
         </div>
         <button type="submit">Login</button>
